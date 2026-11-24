@@ -1,0 +1,57 @@
+# ── Environment / Secrets ─────────────────────────────────────────────────────
+.env
+*.env
+.env.*
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.whl
+venv/
+.venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ── Node / Frontend ───────────────────────────────────────────────────────────
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ── Playwright ────────────────────────────────────────────────────────────────
+test-results/
+playwright-report/
+
+# ── Reports & Generated Output ────────────────────────────────────────────────
+reports/
+screenshots/
+
+# ── IDEs & Editors ────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+*.swo
+*~
+
+# ── OS ────────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Misc ──────────────────────────────────────────────────────────────────────
+*.log
+.claude/
+scratch/
